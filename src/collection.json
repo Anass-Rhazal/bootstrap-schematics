@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "new-modal": {
+      "description": "A blank schematic.",
+      "factory": "./new-modal/index#newModal",
+      "schema": "./new-modal/schema.json"
+    }
+  }
+}

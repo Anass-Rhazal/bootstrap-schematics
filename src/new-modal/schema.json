@@ -1,0 +1,21 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "id": "SchematicsBootstrapModal",
+    "title": "Bootstrap Modal Options Schema",
+    "type": "object",
+    "description": "Generates a new basic Modal",
+    "properties": {
+      "name": {
+        "description": "The name of the modal.",
+        "type": "string",
+        "$default": {
+          "$source": "argv",
+          "index": 0
+        },
+        "x-prompt": "What name would you like to use for the Modal?"
+      }
+    },
+    "required": [
+      "name"
+    ]
+  }
